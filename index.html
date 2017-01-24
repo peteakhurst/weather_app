@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Local Weather App</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="app">Local Weather</h1>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4"></div>
+      <div class="col-md-4 text-center">
+
+        <div id="weather" class="weather">
+          <div id="area" class="area h2"></div>
+          <div id="temps" class="btn btn-default animated"></div>
+
+          <!--  <p id="date" class="date"></p>-->
+
+          <table class="weather text-left table table-striped table-bordered table-condensed">
+            <tbody>
+              <tr>
+                <td>Humidity</td>
+                <td id="humidity" class="humidity"></td>
+              </tr>
+              <tr>
+                <td>Wind</td>
+                <td id="windSpeed" class="windSpeed"></td>
+              </tr>
+              <tr>
+                <td>Sunrise</td>
+                <td id="sunrise" class="sunrise"></td>
+              </tr>
+              <tr>
+                <td>Sunset</td>
+                <td id="sunset" class="sunset"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+      </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
